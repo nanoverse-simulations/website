@@ -1,0 +1,12 @@
+sed -e "s/^M//" canvas.slider.fade.js > ../canvas.slider.fade.js
+sed -e "s/^M//" events-data.js > ../events-data.js
+sed -e "s/^M//" functions.js > ../functions.js
+sed -e "s/^M//" jquery.calendario.js > ../jquery.calendario.js
+sed -e "s/^M//" jquery.camera.js > ../jquery.camera.js
+sed -e "s/^M//" jquery.elastic.js > ../jquery.elastic.js
+sed -e "s/^M//" jquery.gmap.js > ../jquery.gmap.js
+sed -e "s/^M//" jquery.js > ../jquery.js
+sed -e "s/^M//" jquery.mousewheel.min.js > ../jquery.mousewheel.min.js
+sed -e "s/^M//" jquery.nivo.js > ../jquery.nivo.js
+sed -e "s/^M//" jquery.vmap.js > ../jquery.vmap.js
+sed -e "s/^M//" plugins.js > ../plugins.js

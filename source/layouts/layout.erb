@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+    ============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<%= stylesheet_link_tag "bootstrap", "style", "dark", "font-icons", "animate", "magnific-popup", "responsive" %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <%= javascript_include_tag  "jquery", "plugins"  %>
+
+    <!-- Document Title
+    ============================================= -->
+    <title><%= sprintf "%s | Nanoverse -- Worlds by description", current_page.data.title %></title>
+
+</head>
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="full-header">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    <nav id="primary-menu">
+
+                        <ul>
+                            <li><a href="index.html"><div>Home</div></a></li>
+                            <li><a href="https://github.com/biologicaldynamics/nanoverse/releases"><div>Download</div></a></li>
+                            <li><a href="gallery.html"><div>Gallery</div></a></li>
+                            <li><a href="#"><div>How to</div></a>
+								<ul>
+                                    <li><a href="http://nanover.se/wiki"><div>Wiki</div></a></li>
+                                    <li><a href="dictionary/main.html"><div>Dictionary</div></a></li>
+									<li><a href="contact.html"><div>Support</div></a></li>
+								</ul>
+							</li>
+                            <li><a href="#"><div>About</div></a>
+								<ul>
+									<li><a href="contribute.html"><div>Contribute</div></a></li>
+									<li><a href="team.html"><div>Team</div></a></li>
+									<li><a href="contact.html"><div>Contact</div></a></li>
+								</ul>
+							</li>
+
+                        </ul>
+
+                        <!-- Top Search
+                        ============================================= -->
+                        <div id="top-search">
+                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                            </form>
+                        </div><!-- #top-search end -->
+
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+        <!-- Content
+        ============================================= -->
+        <%= yield %>
+
+<!-- Footer
+============================================= -->
+<footer id="footer" class="dark">
+
+    <!-- Copyrights
+    ============================================= -->
+    <div id="copyrights">
+
+        <div class="container clearfix">
+
+                    <div class="col_two_third">
+                        Copyright &copy; 2015 All Rights Reserved by David Bruce Borenstein and Nanoverse, LLC.
+                    </div>
+
+        </div>
+
+    </div><!-- #copyrights end -->
+
+</footer><!-- #footer end -->
+
+</div><!-- #wrapper end -->
+
+<!-- Go To Top
+============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
+
+<!-- Footer Scripts
+============================================= -->
+<script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>
+

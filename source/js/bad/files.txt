@@ -1,0 +1,12 @@
+canvas.slider.fade.js
+events-data.js
+functions.js
+jquery.calendario.js
+jquery.camera.js
+jquery.elastic.js
+jquery.gmap.js
+jquery.js
+jquery.mousewheel.min.js
+jquery.nivo.js
+jquery.vmap.js
+plugins.js

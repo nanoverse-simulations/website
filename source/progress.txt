@@ -1,0 +1,12 @@
+IN  PROGRESS:
+team.html.erb
+index.html.erb
+timeline.html.erb
+
+DONE:
+licensing.html.erb
+contribute.html.erb
+gallery.html.erb
+documentation.html.erb
+download.html.erb
+contact.html.erb

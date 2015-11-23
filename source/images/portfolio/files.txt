@@ -1,0 +1,8 @@
+total 1352
+-rw-r--r--@ 1 dbborens  staff  112412 Feb  5 12:38 200k-divisions.png
+-rw-r--r--@ 1 dbborens  staff   47237 Feb  5 12:26 50k-divisions.png
+-rw-r--r--  1 dbborens  staff       0 Feb  5 12:41 files.txt
+-rw-r--r--@ 1 dbborens  staff  173531 Feb  5 12:16 lineage.png
+-rw-r--r--@ 1 dbborens  staff  102330 Feb  5 12:26 lineages.png
+-rw-r--r--@ 1 dbborens  staff  222231 Feb  5 12:21 resource.png
+-rw-r--r--@ 1 dbborens  staff   20892 Feb  5 12:24 ring_5.png

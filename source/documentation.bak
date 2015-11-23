@@ -1,0 +1,27 @@
+---
+title: Documentation
+---
+<section id="slider" class="full-screen dark" style="background: url(images/kymo-parallax.jpg) center;">
+
+	<div class="container clearfix vertical-middle">
+
+		<div class="heading-block title-center nobottomborder">
+			<h1>Nanoverse is coming soon</h1>
+			<span>Please check back after February 15, 2014.</span>
+		</div>
+
+		<div id="countdown-ex1" class="countdown countdown-large coming-soon divcenter bottommargin" style="max-width:700px;"></div>
+
+		<div class="divider divider-center divider-short divider-margin"><i class="icon-time"></i></div>
+
+
+		<script>
+			jQuery(document).ready( function($){
+				var newDate = new Date(2015, 1, 15);
+				$('#countdown-ex1').countdown({until: newDate});
+			});
+		</script>
+
+	</div>
+
+</section>
